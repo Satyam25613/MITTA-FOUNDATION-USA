@@ -18,7 +18,7 @@ export function Header() {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 w-full z-50 px-4 md:px-10 py-5 flex justify-between items-center transition-all duration-300 ${scrolled ? "bg-white/90 backdrop-blur-xl shadow-[0_1px_0_rgba(0,0,0,0.08)]" : "bg-transparent"}`}>
+    <header className={`fixed top-0 left-0 w-full z-[100] px-4 md:px-10 py-5 flex justify-between items-center transition-all duration-300 ${scrolled ? "bg-white/90 backdrop-blur-xl shadow-[0_1px_0_rgba(0,0,0,0.08)]" : "bg-transparent"}`}>
       {/* LOGO */}
       <Link href="/" className="flex flex-col items-start justify-center group">
         <div className="flex items-center group-hover:scale-105 transition-transform">

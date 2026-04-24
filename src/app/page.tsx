@@ -103,7 +103,7 @@ export default function Home() {
       </section>
 
       {/* 3. TRUST STRIP */}
-      <section className="w-full relative z-50 px-4 md:px-10 py-[60px]">
+      <section className="w-full relative z-40 px-4 md:px-10 py-[60px]">
         <div className="max-w-[1000px] mx-auto bg-white rounded-[24px] shadow-sm border border-[#e5e5ea] py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 md:gap-y-0 md:divide-x divide-[#e5e5ea]/80">
 
