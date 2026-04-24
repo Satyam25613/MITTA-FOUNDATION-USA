@@ -102,8 +102,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. TRUST STRIP (Overlapping the hero on desktop) */}
-      <section className="w-full relative z-50 px-4 md:px-10 mt-[-50px] mb-[80px]">
+      {/* 3. TRUST STRIP (Below the fold - visible on scroll) */}
+      <section className="w-full relative z-50 px-4 md:px-10 py-[60px]">
         <div className="max-w-[1000px] mx-auto bg-white rounded-[24px] shadow-sm border border-[#e5e5ea] py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 md:gap-y-0 md:divide-x divide-[#e5e5ea]/80">
 
