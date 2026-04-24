@@ -28,7 +28,7 @@ export default function Home() {
       <Header />
 
       {/* 2. HERO SECTION (Fitted for Laptop Screens) */}
-      <section className="relative w-full min-h-screen pt-[120px] pb-[80px] lg:pb-[100px] px-4 md:px-10 bg-[#fcfbf9] flex flex-col justify-center">
+      <section className="relative w-full h-screen pt-[120px] pb-[80px] lg:pb-[100px] px-4 md:px-10 bg-[#fcfbf9] flex flex-col justify-center">
 
         {/* HUGE WORLD MAP BACKGROUND */}
         <div className="absolute inset-0 z-0 opacity-[0.08] pointer-events-none flex items-center justify-center overflow-hidden">
@@ -102,7 +102,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. TRUST STRIP (Below the fold - visible on scroll) */}
+      {/* 3. TRUST STRIP */}
       <section className="w-full relative z-50 px-4 md:px-10 py-[60px]">
         <div className="max-w-[1000px] mx-auto bg-white rounded-[24px] shadow-sm border border-[#e5e5ea] py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 md:gap-y-0 md:divide-x divide-[#e5e5ea]/80">
