@@ -28,7 +28,7 @@ export default function Home() {
       <Header />
 
       {/* 2. HERO SECTION (Fitted for Laptop Screens) */}
-      <section className="relative w-full h-screen pt-[120px] pb-[80px] lg:pb-[100px] px-4 md:px-10 bg-[#fcfbf9] flex flex-col justify-center">
+      <section className="relative w-full min-h-[100vh] pt-[120px] pb-[80px] lg:pb-[100px] px-4 md:px-10 bg-[#fcfbf9] flex flex-col justify-center">
 
         {/* HUGE WORLD MAP BACKGROUND */}
         <div className="absolute inset-0 z-0 opacity-[0.08] pointer-events-none flex items-center justify-center overflow-hidden">
